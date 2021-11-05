@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+.container {
+  background: linear-gradient(to right, #24c6dc, #514a9d);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  position: relative;
+  background-color: aliceblue;
+  width: 450px;
+  height: 700px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 0px #ccc;
+}
+.header {
+  margin-bottom: 25px;
+}
+.header__text {
+  cursor: default;
+  text-align: center;
+  color: #3b88bd;
+  margin: 0;
+  margin-top: 25px;
+}
+.input {
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.input__task {
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  height: 150px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: 2px solid #3b88bd;
+  margin-right: 15px;
+  color: #3b88bd;
+  background-color: aliceblue;
+  resize: none;
+  cursor: default;
+  margin-bottom: 25px;
+}
+.input__task:hover,
+.input__task:focus {
+  border: 2px solid #514a9d;
+}
+.input__add {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: #3b88bd;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+  box-shadow: 0 3px 0 0 #24c6dc;
+}
+.input__add:hover {
+  background-color: #514a9d;
+}
+.input__add:active {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+.content {
+  color: #3b88bd;
+  font-size: 20px;
+}
