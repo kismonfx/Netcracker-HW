@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="header">
+                <h1 class="header__text">To-Do</h1>
+            </div>
+            <div class="input">
+                <input type="text" class="input__task" placeholder="Something...">
+                <button class="input__add">Add</button>
+            </div>
+            <div class="list">
+                <div class="list__item">
+                    <input type="text" class="list__item-text text_line-through" value="qqqqqq">
+                    <button class="list__item-button button_done"></button>
+                    <button class="list__item-button button_edit"></button>
+                    <button class="list__item-button button_delete"></button>
+                </div>
+                <div class="list__item">
+                    <input type="text" class="list__item-text" value="wwwwww">
+                    <button class="list__item-button button_done"></button>
+                    <button class="list__item-button button_edit"></button>
+                    <button class="list__item-button button_delete"></button>
+                </div>
+                <div class="list__item">
+                    <input type="text" class="list__item-text" value="eeeeee">
+                    <button class="list__item-button button_done"></button>
+                    <button class="list__item-button button_edit"></button>
+                    <button class="list__item-button button_delete"></button>
+                </div>
+                <div class="list__item">
+                    <input type="text" class="list__item-text" value="rrrrrr">
+                    <button class="list__item-button button_done"></button>
+                    <button class="list__item-button button_edit"></button>
+                    <button class="list__item-button button_delete"></button>
+                </div>
+            </div>
+            <div class="footer">
+                <button class="footer__button"></button>
+                <div class="footer__info">
+                    <div class="footer__info-hidden">
+                        <button class="footer__info-button button_light"></button>
+                        <button class="footer__info-button button_help"></button>
+                        <button class="footer__info-button button_lang"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
